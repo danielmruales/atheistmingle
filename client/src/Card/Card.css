@@ -1,0 +1,24 @@
+.cardImage {
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    height: 500px;
+    border: 2px salmon solid;
+    border-radius: 20px;
+}
+
+.mainBtns {
+    display: flex;
+    justify-content: center;
+    margin: 35px;
+    zoom: 1.5;
+}
+
+.mainBtns > button {
+    border-radius: 10px;
+    border: 0.5px white solid;
+    background-color: salmon;
+    color: white;
+}
