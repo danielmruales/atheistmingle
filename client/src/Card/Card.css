@@ -22,3 +22,7 @@
     background-color: salmon;
     color: white;
 }
+
+.dislikeBtn {
+    margin-left: 20px;
+}
