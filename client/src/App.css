@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(25, 25, 25);
+    background-color: #F5F7FA;
 }
 
 h1 {
@@ -11,3 +11,8 @@ h2 {
     color: white;
     text-align: center;
 }
+
+/* .container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+} */
