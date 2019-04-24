@@ -1,3 +1,16 @@
+.mainCardDiv {
+    width: 76.5%;
+    float: right;
+}
+
+.title {
+    color: black;
+}
+
+.subtitle {
+    color: black;
+}
+
 .cardImage {
     display: flex;
     justify-content: center;
