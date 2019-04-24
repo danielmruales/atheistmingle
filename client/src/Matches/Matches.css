@@ -10,7 +10,8 @@
 .matchesNav {
     display: flex;
     flex-direction: row;
-    background-color: #FF6361;
+    background-color: #66D9D9;
+    color:black;
     border-right: solid 1px gray;
 }
 

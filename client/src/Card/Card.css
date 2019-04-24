@@ -5,10 +5,12 @@
 
 .title {
     color: black;
+    text-align: center;
 }
 
 .subtitle {
     color: black;
+    text-align: center;
 }
 
 .cardImage {
@@ -18,8 +20,8 @@
 
 .image {
     height: 500px;
-    border: 2px salmon solid;
-    border-radius: 20px;
+    border: 4px #66D9D9 solid;
+    border-radius: 15px;
 }
 
 .mainBtns {
@@ -32,8 +34,8 @@
 .mainBtns > button {
     border-radius: 10px;
     border: 0.5px white solid;
-    background-color: salmon;
-    color: white;
+    background-color: #66D9D9;
+    color: black;
 }
 
 .dislikeBtn {
