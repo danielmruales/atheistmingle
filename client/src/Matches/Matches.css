@@ -20,3 +20,20 @@
     height: 100vh;
     border-right: solid 1px grey;
 }
+
+.imgDiv {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    overflow: scroll;
+    height: 100vh;
+    grid-gap: 20px;
+}
+
+.imgDiv> img {
+    margin: auto;
+    height: 90px;
+    width: 110px;
+    border-radius: 15%
+    
+}
+
