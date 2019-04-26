@@ -17,7 +17,7 @@
 
 .matches {
     background-color: white;
-    height: 100vh;
+    height: 1400px;
     border-right: solid 1px grey;
 }
 
@@ -26,14 +26,14 @@
     grid-template-columns: repeat(3, 1fr);
     overflow: scroll;
     height: 100vh;
-    grid-gap: 20px;
+    grid-column-gap: 30px;
 }
 
 .imgDiv> img {
     margin: auto;
     height: 90px;
-    width: 110px;
-    border-radius: 15%
+    /* width: 110px; */
+    border-radius: 10px;
     
 }
 
