@@ -30,10 +30,14 @@
 }
 
 .imgDiv> img {
-    margin: auto;
-    height: 90px;
-    /* width: 110px; */
+    /* margin: auto; */
+    height: 80px;
+    width: 110px;
     border-radius: 10px;
+    border: solid 2px #66D9D9;
     
 }
 
+.options {
+    text-align: center;
+}
