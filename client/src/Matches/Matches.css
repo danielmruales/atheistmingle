@@ -15,6 +15,19 @@
     border-right: solid 1px gray;
 }
 
+.matchesNav > img {
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    /* padding: 10px; */
+    margin: 10px;
+    border: 3px solid white;
+}
+
+.matchesNav > h1 {
+    color: white;
+}
+
 .matches {
     background-color: white;
     height: 1400px;
@@ -26,18 +39,26 @@
     grid-template-columns: repeat(3, 1fr);
     overflow: scroll;
     height: 100vh;
-    grid-column-gap: 30px;
 }
 
-.imgDiv> img {
-    /* margin: auto; */
+.imgDiv > img {
+    margin: auto;
     height: 80px;
     width: 110px;
     border-radius: 10px;
-    border: solid 2px #66D9D9;
+    /* border: solid 2px #66D9D9; */
     
 }
 
-.options {
-    text-align: center;
+
+
+.options > p {
+    display: inline-block;
+    text-align: left;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: 40px;
+    font-weight: bold;
+    cursor: pointer;
 }
