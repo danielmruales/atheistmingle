@@ -9,7 +9,7 @@ class Matches extends Component {
                     <h1> My Profile</h1>
                 </div>
                 <div className='matches'>
-                    <div className='options'><p>Matches</p> <p onClick={() => props.history.push('/messages')}>Messages</p></div>
+                    <div className='options'><p>Matches</p> <p onClick={this.toggle}>Messages</p></div>
                     <div className='imgDiv'>
                         <img src='https://images.unsplash.com/photo-1553564003-28e601062b3b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80' alt='matches'/>
                         <img src='https://images.unsplash.com/photo-1553564003-28e601062b3b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80' alt='matches'/>
